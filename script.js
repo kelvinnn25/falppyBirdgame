@@ -18,7 +18,7 @@ setInterval(function(){
     var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
     var cTop = -(500-characterTop);
     if((characterTop>480)||((blockLeft<20)&&(blockLeft>-50)&&((cTop<holeTop)||(cTop>holeTop+130)))){
-        alert("Lol. Get a life nerd, you fucking suck Score: go touch grass");
+        alert("Your score is: " +jumpCount "Lol. get rekt");
         character.style.top = 100 + "px";
         counter=0;
     }
